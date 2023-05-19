@@ -1,0 +1,70 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Sacral.DataAccess/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.103.6",
+          "Sacral.DTO": "1.0.0"
+        },
+        "runtime": {
+          "Sacral.DataAccess.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.106.38": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.106.38"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.103.6": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.106.38"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.103.6"
+          }
+        }
+      },
+      "Sacral.DTO/1.0.0": {
+        "runtime": {
+          "Sacral.DTO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sacral.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.106.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GL5t1knslxbyvyLugGmCc2Q+Hezkrdi4JVg5qAcgzOLiOpihWf3wsELq6knneKzeCqrD7zKcv168boi/92cpKA==",
+      "path": "awssdk.core/3.7.106.38",
+      "hashPath": "awssdk.core.3.7.106.38.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.103.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mWQkXz+3Yvy9DD/Bo6QYb5g7HFVPJTN8tpDvJM8s94s7qXqvp2BLjGUZNOD7MqZvjUcqWXG/ajsEy/mxN5v4kg==",
+      "path": "awssdk.dynamodbv2/3.7.103.6",
+      "hashPath": "awssdk.dynamodbv2.3.7.103.6.nupkg.sha512"
+    },
+    "Sacral.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

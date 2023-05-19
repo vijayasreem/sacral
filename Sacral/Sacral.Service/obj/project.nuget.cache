@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "r3tTerhfnvVlUxR6//vHjIzw1vmTD24uGrnlu4nJ6/6z+Of6Mf/xiOPaLxKDfUuZR2J76JDA4999eMmxgXYj3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Amar\\Application\\20230518\\Apps\\1\\940\\202305190656\\Sacral\\Sacral.Service\\Sacral.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\awssdk.core\\3.7.106.38\\awssdk.core.3.7.106.38.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.103.6\\awssdk.dynamodbv2.3.7.103.6.nupkg.sha512"
+  ],
+  "logs": []
+}
