@@ -1,12 +1,8 @@
 ﻿public class SacralServiceImpl implements ISacralService {
 
     @Override
-    public void performSacralRitual() {
-        // Implementation logic
+    public void performSacralService() {
+        System.out.println("Performing Sacral Service...");
     }
 
-    @Override
-    public void blessSacralObject() {
-        // Implementation logic
-    }
 }

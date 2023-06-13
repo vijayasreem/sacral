@@ -4,6 +4,6 @@ namespace Sacral.Service
 {
     public interface ISacralService
     {
-        IEnumerable<SacralDTO> GetSacrals();
+        SacralDetails GetSacralDetails(int id);
     }
 }
